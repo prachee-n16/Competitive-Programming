@@ -2,10 +2,7 @@ class Solution {
 public:
     void addRow(vector<vector<int>> &solution, int numRow) {
         if (solution.size() == 0) {
-            vector<int> row;
-            row.push_back(1);
-            solution.push_back(row);
-        
+            solution.push_back({1});
         } else {
             vector<int> row;
             row.push_back(1);
