@@ -5,11 +5,7 @@ public:
             vector<int> row;
             row.push_back(1);
             solution.push_back(row);
-        } else if (solution.size() == 1) {
-            vector<int> row;
-            row.push_back(1);
-            row.push_back(1);
-            solution.push_back(row);
+        
         } else {
             vector<int> row;
             row.push_back(1);
