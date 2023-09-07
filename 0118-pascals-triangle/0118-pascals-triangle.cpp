@@ -1,7 +1,7 @@
 class Solution {
 public:
     void addRow(vector<vector<int>> &solution, int numRow) {
-        if (solution.size() == 0) {
+        if (numRow == 0) {
             solution.push_back({1});
         } else {
             vector<int> row;
